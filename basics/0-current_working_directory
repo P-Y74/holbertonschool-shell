@@ -2,4 +2,4 @@
 
 # A script to print the absolute path name of the current directory
 
-echo "pwd"
+pwd
