@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -mmin 0 | tail - 10
+ls -Art | tail -n 10
