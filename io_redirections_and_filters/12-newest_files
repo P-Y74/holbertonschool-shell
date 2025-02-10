@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -t | tail - 10
+find -type f -mmin 0 | tail - 10
