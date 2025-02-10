@@ -1,2 +1,2 @@
 #!/bin/bash
-passwd(5) | sort -d
+sort -d | passwd(5)
