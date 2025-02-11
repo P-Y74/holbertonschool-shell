@@ -1,2 +1,2 @@
 #!/bin/bash
-find . .. -empty -type df | cut -d : -f1
+find . -maxdepth 2 -empty -type df | cut -f 1
