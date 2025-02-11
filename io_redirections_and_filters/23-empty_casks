@@ -1,2 +1,2 @@
 #!/bin/bash
-find -empty | ls -a | cut -f 7
+find -empty -name ".*" | cut -f 7
