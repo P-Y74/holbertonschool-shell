@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty | ls -aR | cut -f 6
+find . -empty | ls -a | cut -f 6
