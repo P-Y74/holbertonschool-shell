@@ -1,2 +1,2 @@
 #!/bin/bash
-export 128 + TRUEKNOWLEDGE=1209
+export $((TRUEKNOWLEDGE + 128))
