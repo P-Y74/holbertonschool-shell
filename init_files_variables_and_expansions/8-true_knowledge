@@ -1,2 +1,2 @@
 #!/bin/bash
-TRUEKNOWLEDGE=$((1209+128))
+export 128 + TRUEKNOWLEDGE=1209
