@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR | find -empty -d -f
+ls -laR | find -empty -type df
