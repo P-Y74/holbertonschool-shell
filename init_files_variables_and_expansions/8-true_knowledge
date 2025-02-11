@@ -1,2 +1,2 @@
 #!/bin/bash
-export TRUEKNOWLEDGE=1337
+TRUEKNOWLEDGE=$((1209+128))
