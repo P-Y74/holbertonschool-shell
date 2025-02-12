@@ -24,9 +24,9 @@ All of the content listing below are done by resolving exercices.
 16. [Clean emacs](#clean-emacs)
 17. [Tree](#tree)
 
-===================================================
 
-0. ### Current working directory
+
+0. ## Current working directory
 
 Write a script that prints the absolute path name of the current working directory.
 
