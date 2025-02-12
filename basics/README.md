@@ -24,7 +24,7 @@ All of the content listing below are done by resolving exercices.
 16. [Clean emacs](#clean-emacs)
 17. [Tree](#tree)
 
-
+-----------------------------------------------
 
 0. ## Current working directory
 
