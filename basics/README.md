@@ -24,7 +24,7 @@ All of the content listing below are done by resolving exercices.
 16. [Clean emacs](#clean-emacs)
 17. [Tree](#tree)
 
----------------------------------------------
+===================================================
 
 0. ### Current working directory
 
@@ -36,6 +36,7 @@ Example:
         /basics
         $
 
+-------------------------------------------------
 
 1. ### List it
 
@@ -48,6 +49,7 @@ Example:
         Desktop Downloads   Library Music Public
         $
 
+-------------------------------------------------
 
 2. ### Bring me home
 
@@ -65,6 +67,7 @@ Example:
         /home/user
         user@ubuntu:~$
 
+-------------------------------------------------
 
 3. ### List files
 
@@ -80,6 +83,8 @@ Example:
         -rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:39 3-listfiles
         -rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:20 README.md
         $
+
+------------------------------------------------------
 
 4. ### List more files
 
@@ -99,6 +104,7 @@ Example:
         -rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:20 README.md
         $
 
+-------------------------------------------------
 
 5. ### List files digit only
 
@@ -122,6 +128,7 @@ Example:
         -rwxr-xr-x@ 1 501 20 18 Jan 25 00:20 README.md
         $
 
+----------------------------------------------------
 
 6. ### First directory
 
@@ -134,6 +141,7 @@ Example:
         /tmp/my_first_directory/: directory
         $
 
+--------------------------------------------------
 
 7. ### Move that file
 
@@ -146,6 +154,7 @@ Example:
         betty
         $
 
+-------------------------------------------------
 
 8. ### First delete
 
@@ -158,6 +167,7 @@ Example:
         $ ls /tmp/my_first_directory/
         $
 
+------------------------------------------------
 
 9. ### First dir deletion
 
@@ -170,6 +180,7 @@ Example:
         /tmp/my_first_directory: cannot open `/tmp/my_first_directory' (No such file or                directory)
         $
 
+------------------------------------------------
 
 10. ### Back
 
