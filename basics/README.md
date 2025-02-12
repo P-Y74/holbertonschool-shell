@@ -5,7 +5,7 @@ All of the content listing below are done by resolving exercices.
 
 ## Content
 
-[0-Current working directory](#current-working-directory)
+0. [Current working directory](#current-working-directory)
 1. [List it](#list-it)
 2. [Bring me home](#bring-me-home)
 3. [List files](#list-files)
@@ -25,5 +25,5 @@ All of the content listing below are done by resolving exercices.
 17. [Tree](#tree)
 
 
-### 0-Current working directory
+0. ### Current working directory
 
