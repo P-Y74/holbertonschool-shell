@@ -1,5 +1,5 @@
 # Shell, Permissions
-This project is about understand and ho to use permissions.
+This project is about understand and how to use permissions.
 
 ## Content
 
