@@ -195,3 +195,122 @@ Write a script that changes the working directory to the previous one.
         /tmp
         user@ubuntu:/tmp$ pwd
         /tmp
+
+-------------------------------------------
+
+11. ### Lists
+
+Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+
+Be careful with the /
+
+------------------------------------------------
+
+12. ### File type
+
+Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
+
+Example :
+
+        ubuntu@ip-172-31-63-244:~$ ./12-file_type
+        /tmp/iamafile: ELF 64-bit LSB  executable, x86-64, version 1 (SYSV), dynamically               linked (uses shared libs), for GNU/Linux 2.6.24,                                               BuildID[sha1]=bd39c07194a778ccc066fc963ca152bdfaa3f971, stripped
+Note that depending on the file, the output of your script will be different.
+
+-----------------------------
+
+13. ### Symbolic link
+
+Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
+
+        ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
+        total 144
+        drwxrwxr-x  2 ubuntu ubuntu   4096 Sep 20 03:24 .
+        drwxrwxrwt 12 root   root   139264 Sep 20 03:24 ..
+        ubuntu@ip-172-31-63-244:/tmp/sym$./13-symbolic_link
+        ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
+        total 144
+        drwxrwxr-x  2 ubuntu ubuntu   4096 Sep 20 03:24 .
+        drwxrwxrwt 12 root   root   139264 Sep 20 03:24 ..
+        lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
+
+----------------------------
+
+14. ### Copy html
+
+Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+
+You can consider that all HTML files have the extension .html
+
+-----------------------------
+
+15. ### Lets move
+
+Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+
+You can assume that the directory /tmp/u will exist when we will run your script
+
+        ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
+        total 148
+        drwxrwxr-x  3 ubuntu ubuntu   4096 Sep 20 03:33 .
+        drwxrwxrwt 12 root   root   139264 Sep 20 03:26 ..
+        -rw-rw-r--  1 ubuntu ubuntu      0 Sep 20 03:32 My_file
+        lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
+        -rw-rw-r--  1 ubuntu ubuntu      0 Sep 20 03:32 Elif_ym
+        -rw-rw-r--  1 ubuntu ubuntu      0 Sep 20 03:32 random_file
+        ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la /tmp/u
+        total 8
+        drwxrwxr-x 2 ubuntu ubuntu 4096 Sep 20 03:33 .
+        drwxrwxr-x 3 ubuntu ubuntu 4096 Sep 20 03:33 ..
+        ubuntu@ip-172-31-63-244:/tmp/sym$ ./15-lets_move
+        ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
+        total 148
+        drwxrwxr-x  3 ubuntu ubuntu   4096 Sep 20 03:33 .
+        drwxrwxrwt 12 root   root   139264 Sep 20 03:26 ..
+        lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
+        -rw-rw-r--  1 ubuntu ubuntu      0 Sep 20 03:32 random_file
+        ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la /tmp/u
+        total 8
+        drwxrwxr-x 2 ubuntu ubuntu 4096 Sep 20 03:33 .
+        drwxrwxr-x 3 ubuntu ubuntu 4096 Sep 20 03:33 ..
+        -rw-rw-r-- 1 ubuntu ubuntu    0 Sep 20 03:32 My_file
+        -rw-rw-r-- 1 ubuntu ubuntu    0 Sep 20 03:32 Elif_ym
+
+-------------------------------
+
+16. ### Clean emacs
+
+Create a script that deletes all files in the current working directory that end with the character ~.
+
+        ubuntu@ip-172-31-63-244:/tmp/sym$ ls
+        main.c  main.c~  Makefile~
+        ubuntu@ip-172-31-63-244:/tmp/sym$ ./16-clean_emacs
+        ubuntu@ip-172-31-63-244:/tmp/emacs$ ls
+        main.c
+        ubuntu@ip-172-31-63-244:/tmp/emacs$
+
+-------------------------------
+
+17. ### Tree
+
+Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+
+You are only allowed to use two spaces (and lines) in your script, not more.
+
+        user@ubuntu:/tmp/h$ ls -l
+        total 4
+        -rwxrw-r-- 1 user user 44 Sep 20 12:09 17-tree
+        julien@ubuntu:/tmp/h$ wc -l 17-tree 
+        2 17-tree
+        user@ubuntu:/tmp/h$ head -1 17-tree 
+        #!/bin/bash
+        user@ubuntu:/tmp/h$ tr -cd ' ' < 17-tree | wc -c # you do not have to understand               this yet, but the result should be 2, 1 or 0
+        2
+        user@ubuntu:/tmp/h$ ./17-tree 
+        user@ubuntu:/tmp/h$ ls
+        17-tree  welcome
+        user@ubuntu:/tmp/h$ ls welcome/
+        to
+        user@ubuntu:/tmp/h$ ls -l welcome/to
+        total 4
+        drwxrwxr-x 2 user user 4096 Sep 20 12:11 school
+        user@ubuntu:/tmp/h$
