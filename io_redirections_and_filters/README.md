@@ -13,7 +13,7 @@ This project was about to understand and how to use Input\Output redirections an
 7. [File](#file)
 8. [CWD state](#cwd-state)
 9. [Duplicate last line](#duplicate-last-line)
-10. [No more .js](#no-more-.js)
+10. [No more js](#no-more-js)
 11. [Directories](#directories)
 12. [Newest files](#newest-files)
 13. [Unique](#unique)
@@ -284,7 +284,7 @@ Write a script that duplicates the last line of the file iacta
 
 ----------------
 
-10. ### No more .js
+10. ### No more js
 
 Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
 
