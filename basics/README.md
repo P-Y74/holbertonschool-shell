@@ -8,30 +8,30 @@ Welcome to **Shell Basics**! This repository contains a collection of scripts ai
 
 ## Table of Contents
 
-1. [Resources](#resources-)
-2. [Learning Objectives](#learning-objectives-)
-3. [Project Requirements](#project-requirements-)
-4. [Setup](#setup-)
-5. [Scripts & Usage](#scripts--usage-)
-   - [0. Current Working Directory](#0-current-working-directory-)
-   - [1. List It](#1-list-it-)
-   - [2. Bring Me Home](#2-bring-me-home-)
-   - [3. List Files](#3-list-files-)
-   - [4. List More Files](#4-list-more-files-)
-   - [5. List Files Digit Only](#5-list-files-digit-only-)
-   - [6. First Directory](#6-first-directory-)
-   - [7. Move That File](#7-move-that-file-)
-   - [8. First Delete](#8-first-delete-)
-   - [9. First Dir Deletion](#9-first-dir-deletion-)
-   - [10. Back](#10-back-)
-   - [11. Lists](#11-lists-)
-   - [12. File Type](#12-file-type-)
-   - [13. Symbolic Link](#13-symbolic-link-)
-   - [14. Copy HTML](#14-copy-html-)
-   - [15. Let's Move](#15-lets-move-)
-   - [16. Clean Emacs](#16-clean-emacs-)
-   - [17. Tree](#17-tree-)
-6. [Contributing](#contributing-)
+1. [Resources](#resources)
+2. [Learning Objectives](#learning-objectives)
+3. [Project Requirements](#project-requirements)
+4. [Setup](#setup)
+5. [Scripts & Usage](#scripts--usage)
+   - [0. Current Working Directory](#0-current-working-directory)
+   - [1. List It](#1-list-it)
+   - [2. Bring Me Home](#2-bring-me-home)
+   - [3. List Files](#3-list-files)
+   - [4. List More Files](#4-list-more-files)
+   - [5. List Files Digit Only](#5-list-files-digit-only)
+   - [6. First Directory](#6-first-directory)
+   - [7. Move That File](#7-move-that-file)
+   - [8. First Delete](#8-first-delete)
+   - [9. First Dir Deletion](#9-first-dir-deletion)
+   - [10. Back](#10-back)
+   - [11. Lists](#11-lists)
+   - [12. File Type](#12-file-type)
+   - [13. Symbolic Link](#13-symbolic-link)
+   - [14. Copy HTML](#14-copy-html)
+   - [15. Let's Move](#15-lets-move)
+   - [16. Clean Emacs](#16-clean-emacs)
+   - [17. Tree](#17-tree)
+6. [Contributing](#contributing)
 
 ---
 
@@ -43,7 +43,7 @@ Here are some useful materials to help you understand shell basics:
 - **Navigation & File System**
 - **Shell Commands & Shortcuts**
 - **Man Pages & Documentation**
-- **Understanding Shebang (**``**)**
+- **Understanding Shebang (`#!`)**
 
 ### Commands Covered:
 
@@ -102,13 +102,88 @@ Run a script using:
 
 ## Scripts & Usage 🔧
 
+### 0. Current Working Directory
+
+Write a script that prints the absolute path name of the current working directory.
+
+```bash
+$ ./0-current_working_directory
+/basics
+$
+```
+
+### 1. List It
+
+Display the contents list of your current directory.
+
+```bash
+$ ./1-listit
+Applications  Documents  Downloads  Movies  Pictures  Desktop
+$
+```
+
+### 2. Bring Me Home
+
+Change the working directory to the user’s home directory.
+
+```bash
+$ ./2-bring_me_home
+$ pwd
+/home/user
+$
+```
+
+### 3. List Files
+
+List files in long format.
+
+```bash
+$ ./3-listfiles
+$
+```
+
+### 4. List More Files
+
+List all files, including hidden ones, in long format.
+
+```bash
+$ ./4-listmorefiles
+$
+```
+
+### 5. List Files Digit Only
+
+List files with numeric user and group IDs.
+
+```bash
+$ ./5-listfilesdigitonly
+$
+```
+
+### 6. First Directory
+
+Create a directory named `my_first_directory` in `/tmp/`.
+
+```bash
+$ ./6-firstdirectory
+$
+```
+
+### 7. Move That File
+
+Move the file `betty` from `/tmp/` to `/tmp/my_first_directory/`.
+
+```bash
+$ ./7-movethatfile
+$
+```
+
 ### 8. First Delete
 
 Delete the file `betty` in `/tmp/my_first_directory/`.
 
 ```bash
 $ ./8-firstdelete
-$ ls /tmp/my_first_directory/
 $
 ```
 
@@ -118,7 +193,6 @@ Delete the directory `my_first_directory` in `/tmp/`.
 
 ```bash
 $ ./9-firstdirdeletion
-$ ls /tmp/
 $
 ```
 
@@ -165,7 +239,7 @@ $
 
 ### 14. Copy HTML
 
-Copy all HTML files from current directory to the parent directory.
+Copy all HTML files from the current directory to the parent directory.
 
 ```bash
 $ ./14-copy_html
@@ -192,7 +266,7 @@ $
 
 ### 17. Tree
 
-Create directories `welcome/`, `welcome/to/`, `welcome/to/school` in current directory.
+Create directories `welcome/`, `welcome/to/`, `welcome/to/school` in the current directory.
 
 ```bash
 $ ./17-tree
