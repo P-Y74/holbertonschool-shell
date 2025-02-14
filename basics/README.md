@@ -8,7 +8,7 @@ Welcome to **Shell Basics**! This repository contains a collection of scripts ai
 
 ## Table of Contents
 
-1. [Resources](#-resources-)
+1. [Resources](#-resources)
 2. [Learning Objectives](#learning-objectives)
 3. [Project Requirements](#project-requirements)
 4. [Setup](#setup)
