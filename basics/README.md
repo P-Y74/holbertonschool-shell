@@ -8,7 +8,7 @@ Welcome to **Shell Basics**! This repository contains a collection of scripts ai
 
 ## Table of Contents
 
-1. [Resources](#-resources)
+1. [Resources](#resources)
 2. [Learning Objectives](#learning-objectives)
 3. [Project Requirements](#project-requirements)
 4. [Setup](#setup)
@@ -35,7 +35,7 @@ Welcome to **Shell Basics**! This repository contains a collection of scripts ai
 
 ---
 
-## Resources 📚
+## Resources ✨
 
 Here are some useful materials to help you understand shell basics:
 
@@ -43,7 +43,7 @@ Here are some useful materials to help you understand shell basics:
 - **Navigation & File System**
 - **Shell Commands & Shortcuts**
 - **Man Pages & Documentation**
-- **Understanding Shebang (`#!`)**
+- **Understanding Shebang (**``**)**
 
 ### Commands Covered:
 
@@ -68,7 +68,7 @@ By the end of this project, you should be able to:
 
 ---
 
-## Project Requirements ✅
+## Project Requirements 📋
 
 - Scripts must be exactly **two lines long** (`wc -l file` should print 2)
 - The first line of each script must be `#!/bin/bash`
@@ -78,7 +78,7 @@ By the end of this project, you should be able to:
 
 ---
 
-## Setup 🛠️
+## Setup ⚙️
 
 To get started, clone this repository:
 
@@ -100,83 +100,7 @@ Run a script using:
 
 ---
 
-## Scripts & Usage 🔧
-
-### 0. Current Working Directory
-
-Write a script that prints the absolute path name of the current working directory.
-
-```bash
-$ ./0-current_working_directory
-/basics
-$
-```
-
-### 1. List It
-
-Display the contents list of your current directory.
-
-```bash
-$ ./1-listit
-Applications  Documents  Downloads  Movies  Pictures  Desktop
-$
-```
-
-### 2. Bring Me Home
-
-Change the working directory to the user’s home directory.
-
-```bash
-$ ./2-bring_me_home
-$ pwd
-/home/user
-$
-```
-
-### 3. List Files
-
-List files in long format.
-
-```bash
-$ ./3-listfiles
-$
-```
-
-### 4. List More Files
-
-List all files, including hidden ones, in long format.
-
-```bash
-$ ./4-listmorefiles
-$
-```
-
-### 5. List Files Digit Only
-
-List files with numeric user and group IDs.
-
-```bash
-$ ./5-listfilesdigitonly
-$
-```
-
-### 6. First Directory
-
-Create a directory named `my_first_directory` in `/tmp/`.
-
-```bash
-$ ./6-firstdirectory
-$
-```
-
-### 7. Move That File
-
-Move the file `betty` from `/tmp/` to `/tmp/my_first_directory/`.
-
-```bash
-$ ./7-movethatfile
-$
-```
+## Scripts & Usage 🚀
 
 ### 8. First Delete
 
@@ -184,6 +108,7 @@ Delete the file `betty` in `/tmp/my_first_directory/`.
 
 ```bash
 $ ./8-firstdelete
+$ ls /tmp/my_first_directory/
 $
 ```
 
@@ -193,6 +118,7 @@ Delete the directory `my_first_directory` in `/tmp/`.
 
 ```bash
 $ ./9-firstdirdeletion
+$ ls /tmp/
 $
 ```
 
@@ -239,7 +165,7 @@ $
 
 ### 14. Copy HTML
 
-Copy all HTML files from the current directory to the parent directory.
+Copy all HTML files from current directory to the parent directory.
 
 ```bash
 $ ./14-copy_html
@@ -266,7 +192,7 @@ $
 
 ### 17. Tree
 
-Create directories `welcome/`, `welcome/to/`, `welcome/to/school` in the current directory.
+Create directories `welcome/`, `welcome/to/`, `welcome/to/school` in current directory.
 
 ```bash
 $ ./17-tree
