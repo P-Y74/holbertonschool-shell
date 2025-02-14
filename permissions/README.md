@@ -1,5 +1,7 @@
 # Shell, Permissions ✨
 
+<img src="https://github.com/user-attachments/assets/7d564981-cb81-43e7-819a-25ffcfc5bd72" width=40% height=40%>
+
 ## Overview
 
 Welcome to **Shell, Permissions**! This repository contains a collection of scripts aimed at mastering file permissions, user management, and access control in a Unix-based system. The goal is to become proficient in managing file and directory permissions using command-line tools.
