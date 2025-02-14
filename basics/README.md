@@ -8,11 +8,11 @@ Welcome to **Shell Basics**! This repository contains a collection of scripts ai
 
 ## Table of Contents
 
-1. [Resources](#resources)
-2. [Learning Objectives](#learning-objectives)
-3. [Project Requirements](#project-requirements)
-4. [Setup](#setup)
-5. [Scripts & Usage](#scripts--usage)
+1. [Resources](#resources-)
+2. [Learning Objectives](#learning-objectives-)
+3. [Project Requirements](#project-requirements-)
+4. [Setup](#setup-)
+5. [Scripts & Usage](#scripts--usage-)
    - [0. Current Working Directory](#0-current-working-directory)
    - [1. List It](#1-list-it)
    - [2. Bring Me Home](#2-bring-me-home)
@@ -31,11 +31,11 @@ Welcome to **Shell Basics**! This repository contains a collection of scripts ai
    - [15. Let's Move](#15-lets-move)
    - [16. Clean Emacs](#16-clean-emacs)
    - [17. Tree](#17-tree)
-6. [Contributing](#contributing)
+6. [Contributing](#contributing-)
 
 ---
 
-## Resources  ✨
+## Resources ✨
 
 Here are some useful materials to help you understand shell basics:
 
@@ -53,7 +53,7 @@ cd, ls, pwd, less, file, ln, cp, mv, rm, mkdir, type, which, help, man
 
 ---
 
-## Learning Objectives  🎯
+## Learning Objectives 🎯
 
 By the end of this project, you should be able to:
 
@@ -68,7 +68,7 @@ By the end of this project, you should be able to:
 
 ---
 
-## Project Requirements  📋
+## Project Requirements 📋
 
 - Scripts must be exactly **two lines long** (`wc -l file` should print 2)
 - The first line of each script must be `#!/bin/bash`
@@ -78,7 +78,7 @@ By the end of this project, you should be able to:
 
 ---
 
-## Setup  ⚙️
+## Setup ⚙️
 
 To get started, clone this repository:
 
@@ -100,7 +100,7 @@ Run a script using:
 
 ---
 
-## Scripts & Usage  🚀
+## Scripts & Usage 🚀
 
 ### 8. First Delete
 
