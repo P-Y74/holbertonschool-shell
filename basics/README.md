@@ -13,7 +13,7 @@ Welcome to **Shell Basics**! This repository contains a collection of scripts ai
 3. [Project Requirements](#project-requirements-)
 4. [Setup](#setup-)
 5. [Scripts & Usage](#scripts--usage-)
-   - [0. Current Working Directory](#0-current-working-directory)
+   - [0. Current Working Directory](#0current-working-directory)
    - [1. List It](#1-list-it)
    - [2. Bring Me Home](#2-bring-me-home)
    - [3. List Files](#3-list-files)
