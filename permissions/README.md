@@ -3,6 +3,7 @@
 ## Overview
 
 Welcome to **Shell, Permissions**! This repository contains a collection of scripts aimed at mastering file permissions, user management, and access control in a Unix-based system. The goal is to become proficient in managing file and directory permissions using command-line tools.
+These scripts were created as part of a learning project aimed at solving various exercises on shell permissions. Each script addresses a specific requirement and helps to better understand user management and access rights in a Unix system.
 
 ## Table of Contents
 
