@@ -31,7 +31,6 @@ Welcome to **Shell Basics**! This repository contains a collection of scripts ai
    - [15. Let's Move](#15-lets-move)
    - [16. Clean Emacs](#16-clean-emacs)
    - [17. Tree](#17-tree)
-6. [Contributing](#contributing-)
 
 ---
 
@@ -101,6 +100,85 @@ Run a script using:
 ---
 
 ## Scripts & Usage 🚀
+
+### 0. Current Working Directory
+
+Print the absolute path of the current working directory.
+
+```bash
+$ ./0-current_working_directory
+/basics
+$
+```
+
+### 1. List It
+
+Display the contents of the current directory.
+
+```bash
+$ ./1-listit
+Applications Documents Downloads ...
+$
+```
+
+### 2. Bring Me Home
+
+Change the working directory to the user's home directory.
+
+```bash
+$ ./2-bring_me_home
+$ pwd
+/home/user
+$
+```
+
+### 3. List Files
+
+Display files in the current directory in long format.
+
+```bash
+$ ./3-listfiles
+...
+```
+
+### 4. List More Files
+
+Display all files, including hidden ones, in long format.
+
+```bash
+$ ./4-listmorefiles
+...
+```
+
+### 5. List Files Digit Only
+
+Display only files starting with a digit in long format.
+
+```bash
+$ ./5-listfilesdigitonly
+...
+```
+
+### 6. First Directory
+
+Create a directory named `my_first_directory` in `/tmp/`.
+
+```bash
+$ ./6-firstdirectory
+$ ls /tmp/
+...
+```
+
+### 7. Move That File
+
+Move file `betty` into `/tmp/my_first_directory/`.
+
+```bash
+$ ./7-movethatfile
+$ ls /tmp/my_first_directory/
+betty
+$
+```
 
 ### 8. First Delete
 
