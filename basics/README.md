@@ -5,6 +5,7 @@
 ## Overview
 
 Welcome to **Shell Basics**! This repository contains a collection of scripts aimed at mastering fundamental shell commands and navigation techniques. The goal is to become proficient in using the command line for file management, directory manipulation, and script execution.
+These scripts were created as part of a learning project aimed at solving various exercises on shell permissions. Each script addresses a specific requirement and helps to better understand user management and access rights in a Unix system.
 
 ## Table of Contents
 
