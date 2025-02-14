@@ -35,7 +35,7 @@ Welcome to **Shell Basics**! This repository contains a collection of scripts ai
 
 ---
 
-## Resources ✨
+## Resources  ✨
 
 Here are some useful materials to help you understand shell basics:
 
@@ -53,7 +53,7 @@ cd, ls, pwd, less, file, ln, cp, mv, rm, mkdir, type, which, help, man
 
 ---
 
-## Learning Objectives 🎯
+## Learning Objectives  🎯
 
 By the end of this project, you should be able to:
 
@@ -68,7 +68,7 @@ By the end of this project, you should be able to:
 
 ---
 
-## Project Requirements 📋
+## Project Requirements  📋
 
 - Scripts must be exactly **two lines long** (`wc -l file` should print 2)
 - The first line of each script must be `#!/bin/bash`
@@ -78,7 +78,7 @@ By the end of this project, you should be able to:
 
 ---
 
-## Setup ⚙️
+## Setup  ⚙️
 
 To get started, clone this repository:
 
@@ -100,7 +100,7 @@ Run a script using:
 
 ---
 
-## Scripts & Usage 🚀
+## Scripts & Usage  🚀
 
 ### 8. First Delete
 
