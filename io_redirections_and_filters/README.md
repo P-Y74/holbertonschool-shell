@@ -8,11 +8,11 @@ Welcome to **Shell, I/O Redirections and Filters**! This repository contains a s
 
 ## Table of Contents
 
-1. [Resources](#resources)
-2. [Learning Objectives](#learning-objectives)
-3. [Project Requirements](#project-requirements)
-4. [Setup](#setup)
-5. [Scripts & Usage](#scripts--usage)
+1. [Resources](#resources-)
+2. [Learning Objectives](#learning-objectives-)
+3. [Project Requirements](#project-requirements-)
+4. [Setup](#setup-)
+5. [Scripts & Usage](#scripts--usage-)
    - [0. Hello World](#0-hello-world)
    - [1. Confused smiley](#1-confused-smiley)
    - [2. Hello file](#2-hello-file)
@@ -38,7 +38,6 @@ Welcome to **Shell, I/O Redirections and Filters**! This repository contains a s
    - [22. Users and homes](#22-users-and-homes)
    - [23. Empty casks](#23-empty-casks)
    - [24. Gifs](#24-gifs)
-6. [Contributing](#contributing)
 
 ---
 
