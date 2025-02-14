@@ -1,6 +1,6 @@
 # Shell Basics ✨
 
-![Holberton School](https://upload.wikimedia.org/wikipedia/commons/8/8d/Holberton_School_logo.png)
+![Holberton School](![image](https://github.com/user-attachments/assets/7d564981-cb81-43e7-819a-25ffcfc5bd72)
 
 ## Overview
 
